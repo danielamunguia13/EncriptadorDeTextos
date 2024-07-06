@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Encriptador de Textos</title>
+  <link rel="icon" type="image/x-icon" href="imagenes/icono.png" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1 id="title">ENCRIPTADOR</h1>
+    <textarea id="input-text" placeholder="Ingrese el texto aquí..."></textarea>
+    <div class="buttons">
+      <button onclick="encryptText()">Encriptar</button>
+      <button onclick="decryptText()">Desencriptar</button>
+    </div>
+    <textarea id="output-text" readonly placeholder="Resultado..."></textarea>
+    <button onclick="copyText()">Copiar</button>
+  </div>
+  
+  <!-- Pie de pagina-->
+  <footer>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <a href="https://github.com/danielamunguia13" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/danielamunguiaalfaro" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="mailto:danielamunguia4340@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+    <div class="derechos-de-autor">
+      Creado por Daniela Munguia (2024) &#169;
+    </div>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
