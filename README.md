@@ -3,6 +3,7 @@
 ## ¡Bienvenidas y bienvenidos! 🌟
 
 ¡Hola a todas y todos! 😊 Estoy emocionada de presentarles mi primer desafío de encriptación de textos.🕵️‍♀️🕵️‍♂️
+![Encriptador](imagenes/icono.png)
 
 ### Llaves de Encriptación 🗝️
 Para lograr la encriptación, utilizaremos las siguientes reglas de conversión:
